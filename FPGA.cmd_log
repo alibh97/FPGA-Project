@@ -45,3 +45,4 @@ xst -intstyle ise -ifn "D:/darsi/fpga/Project/project/FPGA.xst" -ofn "D:/darsi/f
 xst -intstyle ise -ifn "D:/darsi/fpga/Project/project/FPGA.xst" -ofn "D:/darsi/fpga/Project/project/FPGA.syr" 
 xst -intstyle ise -ifn "D:/darsi/fpga/Project/project/FPGA.xst" -ofn "D:/darsi/fpga/Project/project/FPGA.syr" 
 xst -intstyle ise -ifn "D:/darsi/fpga/FPGA-Project/FPGA.xst" -ofn "D:/darsi/fpga/FPGA-Project/FPGA.syr" 
+xst -intstyle ise -ifn "D:/darsi/fpga/FPGA-Project/FPGA.xst" -ofn "D:/darsi/fpga/FPGA-Project/FPGA.syr" 

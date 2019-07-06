@@ -13,7 +13,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000d4000000020000000000000000000000000200000064ffffffff000000810000000300000002000000d40000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000000ce0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>FPGA (D:/darsi/fpga/FPGA-Project/node.v)</CurrentItem>
    </ItemView>
@@ -65,13 +65,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
+         <SelectedItem>Check Syntax</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
+      <CurrentItem>Check Syntax</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -170,21 +170,27 @@
          <ClosedNode>/t56 D:|darsi|fpga|FPGA-Project|t56.v</ClosedNode>
          <ClosedNode>/t57 D:|darsi|fpga|FPGA-Project|t57.v</ClosedNode>
          <ClosedNode>/t58 D:|darsi|fpga|FPGA-Project|t58.v</ClosedNode>
+         <ClosedNode>/t59 D:|darsi|fpga|FPGA-Project|t59.v</ClosedNode>
          <ClosedNode>/t6 D:|darsi|fpga|FPGA-Project|t6.v</ClosedNode>
          <ClosedNode>/t6 D:|darsi|fpga|Project|project|t6.v</ClosedNode>
+         <ClosedNode>/t60 D:|darsi|fpga|FPGA-Project|t60.v</ClosedNode>
+         <ClosedNode>/t61 D:|darsi|fpga|FPGA-Project|t61.v</ClosedNode>
+         <ClosedNode>/t62 D:|darsi|fpga|FPGA-Project|t62.v</ClosedNode>
+         <ClosedNode>/t63 D:|darsi|fpga|FPGA-Project|t63.v</ClosedNode>
+         <ClosedNode>/t64 D:|darsi|fpga|FPGA-Project|t64.v</ClosedNode>
          <ClosedNode>/t7 D:|darsi|fpga|FPGA-Project|t7.v</ClosedNode>
          <ClosedNode>/t7 D:|darsi|fpga|Project|project|t7.v</ClosedNode>
          <ClosedNode>/t8 D:|darsi|fpga|FPGA-Project|t8.v</ClosedNode>
          <ClosedNode>/t8 D:|darsi|fpga|Project|project|t8.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>t61 (D:/darsi/fpga/FPGA-Project/t61.v)</SelectedItem>
+         <SelectedItem>t64 (D:/darsi/fpga/FPGA-Project/t64.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >97</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >49</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e8000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e80000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000ae000000020000000000000000000000000200000064ffffffff000000810000000300000002000000ae0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>t61 (D:/darsi/fpga/FPGA-Project/t61.v)</CurrentItem>
+      <CurrentItem>t64 (D:/darsi/fpga/FPGA-Project/t64.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -205,12 +211,12 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
 </Project>
