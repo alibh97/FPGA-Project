@@ -74,13 +74,14 @@ integer  counter_ack=0;
 integer  counter_receiver=0;
 integer begin_ack=0;
 integer  counter_ack_receiver=0;
-integer ack=0;
+reg [15:0] ack=0;
 integer begin_receiving=0;
 
 	always @(posedge clock) begin
 	
 		// mod =0 means its gonna be receiver
 		if(mod==0) begin
+			bus_en=0;
 			// see the start bit
 			if(bus_in==0) begin_receiving=1;
 			
@@ -100,7 +101,7 @@ integer begin_receiving=0;
 							temp_data=received_packet[74:11];
 							begin_receiving=0;
 							begin_ack=1;
-							ack=1;
+							ack[addr]=1;
 							
 						end
 					end
@@ -112,15 +113,14 @@ integer begin_receiving=0;
 					bus_en=1;
 					bus_temp=1;
 					
-					counter_ack_receiver<=counter_ack_receiver+1;
+					counter_ack_receiver=counter_ack_receiver+1;
 				end
 				// ack has been sent
 				else begin
-					bus_en=0;
+					
 					begin_ack=0;
 					counter_ack_receiver=0;
 					counter_receiver=0;
-					ack=0;
 				end
 
 			end
@@ -131,7 +131,7 @@ integer begin_receiving=0;
 	
 		// mod =1  means its gonna be sender
 		else if (mod==1) begin
-				
+				//bus_en=0;
 				// send packet in 80 clock
 				if (counter<80) begin
 					bus_en=1;
@@ -146,7 +146,7 @@ integer begin_receiving=0;
 					if(counter ==80) begin
 						bus_en=1;
 						bus_temp=0;
-						counter <=81;
+						counter =81;
 					end
 					
 					// waiting to see ack
@@ -176,7 +176,7 @@ integer begin_receiving=0;
 	
 	assign bus_in= bus_en ? bus_temp : 1'bZ;
 						
-	assign nodeData= ack ? temp_data : data;
+	assign nodeData= ack[addr]==1'b1 ? temp_data : data;
 	
 
 
@@ -255,36 +255,27 @@ initial begin
  addr16=15;
 end
 
-// these are outputs of nodes
-//wire bus_out;
-//wire bus1,bus2,bus3,bus4,bus5,bus6,bus7,bus8,bus9,bus10,bus11,bus12,bus13,bus14,bus15,bus16;
 
 // instantiation
 node node1(.clock(clock),.crc(CRC1),.mod(mod[0]),.data(Data1),.bus_in(bus),.addr(addr1),.receiverAddr(receiverAddr1));
 node node2(.clock(clock),.crc(CRC2),.mod(mod[1]),.data(Data2),.bus_in(bus),.addr(addr2),.receiverAddr(receiverAddr2));
 node node3(.clock(clock),.crc(CRC3),.mod(mod[2]),.data(Data3),.bus_in(bus),.addr(addr3),.receiverAddr(receiverAddr3));
-
-// the output of the sender will be placed in bus, we determined sender with onehot code
-assign bus_show= bus;
-/*			   mod==16'b0000000000000010 ? bus2:
-			  mod==16'b0000000000000100 ? bus3:
-			  mod==16'b0000000000001000 ? bus4:
-			  mod==16'b0000000000010000 ? bus5:
-			  mod==16'b0000000000100000 ? bus6:
-			  mod==16'b0000000001000000 ? bus7:
-			  mod==16'b0000000010000000 ? bus8:
-			  mod==16'b0000000100000000 ? bus9:
-			  mod==16'b0000001000000000 ? bus10:
-			  mod==16'b0000010000000000 ? bus11:
-			  mod==16'b0000100000000000 ? bus12:
-			  mod==16'b0001000000000000 ? bus13:
-			  mod==16'b0010000000000000 ? bus14:
-			  mod==16'b0100000000000000 ? bus15:
-			  mod==16'b1000000000000000 ? bus16:1'bZ;*/
-			  
+node node4(.clock(clock),.crc(CRC4),.mod(mod[3]),.data(Data4),.bus_in(bus),.addr(addr4),.receiverAddr(receiverAddr4));
+node node5(.clock(clock),.crc(CRC5),.mod(mod[4]),.data(Data5),.bus_in(bus),.addr(addr5),.receiverAddr(receiverAddr5));
+node node6(.clock(clock),.crc(CRC6),.mod(mod[5]),.data(Data6),.bus_in(bus),.addr(addr6),.receiverAddr(receiverAddr6));
+node node7(.clock(clock),.crc(CRC7),.mod(mod[6]),.data(Data7),.bus_in(bus),.addr(addr7),.receiverAddr(receiverAddr7));
+node node8(.clock(clock),.crc(CRC8),.mod(mod[7]),.data(Data8),.bus_in(bus),.addr(addr8),.receiverAddr(receiverAddr8));
+node node9(.clock(clock),.crc(CRC9),.mod(mod[8]),.data(Data9),.bus_in(bus),.addr(addr9),.receiverAddr(receiverAddr9));
+node node10(.clock(clock),.crc(CRC10),.mod(mod[9]),.data(Data10),.bus_in(bus),.addr(addr10),.receiverAddr(receiverAddr10));
+node node11(.clock(clock),.crc(CRC11),.mod(mod[10]),.data(Data11),.bus_in(bus),.addr(addr11),.receiverAddr(receiverAddr11));
+node node12(.clock(clock),.crc(CRC12),.mod(mod[11]),.data(Data12),.bus_in(bus),.addr(addr12),.receiverAddr(receiverAddr12));
+node node13(.clock(clock),.crc(CRC13),.mod(mod[12]),.data(Data13),.bus_in(bus),.addr(addr13),.receiverAddr(receiverAddr13));
+node node14(.clock(clock),.crc(CRC14),.mod(mod[13]),.data(Data14),.bus_in(bus),.addr(addr14),.receiverAddr(receiverAddr14));
+node node15(.clock(clock),.crc(CRC15),.mod(mod[14]),.data(Data15),.bus_in(bus),.addr(addr15),.receiverAddr(receiverAddr15));
+node node16(.clock(clock),.crc(CRC16),.mod(mod[15]),.data(Data16),.bus_in(bus),.addr(addr16),.receiverAddr(receiverAddr16));
 
 // we put bus in bus_show to see what is on it in any clock;
-//assign bus_show=bus;
-	 
+assign bus_show= bus;
+
 endmodule
 
