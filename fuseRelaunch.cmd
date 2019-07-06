@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/darsi/fpga/Project/project/t49_isim_beh.exe" -prj "D:/darsi/fpga/Project/project/t49_beh.prj" "work.t49" "work.glbl" 

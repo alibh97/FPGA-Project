@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/darsi/fpga/Project/project/t29_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="t29" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="51" />
+   <wvobject fp_name="/t29/bus_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus_out</obj_property>
+      <obj_property name="ObjectShortName">bus_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/clock" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="label">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC8[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC9[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC9[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC10[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC11[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC11[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC12[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC12[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC13[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC13[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC14[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC14[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC15[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC15[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/CRC16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC16[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC16[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data5[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data6[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data6[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data7[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data7[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data8[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data8[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data9[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data9[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data10[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data10[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data11[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data11[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data12[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data12[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data13[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data13[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data14[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data14[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data15[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data15[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/Data16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data16[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Data16[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr8[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr9[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr9[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr10[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr11[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr11[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr12[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr12[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr13[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr13[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr14[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr14[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr15[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr15[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/receiverAddr16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">receiverAddr16[3:0]</obj_property>
+      <obj_property name="ObjectShortName">receiverAddr16[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/t29/mod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mod[15:0]</obj_property>
+   </wvobject>
+</wave_config>

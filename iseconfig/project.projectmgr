@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="project" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>node1 - node (D:/darsi/fpga/Project/project/node.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000000ce0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>node1 - node (D:/darsi/fpga/Project/project/node.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>node.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001160000010a01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/t1 D:|darsi|fpga|Project|project|t1.v</ClosedNode>
+         <ClosedNode>/t11 D:|darsi|fpga|Project|project|t11.v</ClosedNode>
+         <ClosedNode>/t12 D:|darsi|fpga|Project|project|t12.v</ClosedNode>
+         <ClosedNode>/t13node D:|darsi|fpga|Project|project|t13node.v</ClosedNode>
+         <ClosedNode>/t14node D:|darsi|fpga|Project|project|t14node.v</ClosedNode>
+         <ClosedNode>/t15node D:|darsi|fpga|Project|project|t15node.v</ClosedNode>
+         <ClosedNode>/t16node D:|darsi|fpga|Project|project|t16node.v</ClosedNode>
+         <ClosedNode>/t17 D:|darsi|fpga|Project|project|t17.v</ClosedNode>
+         <ClosedNode>/t18 D:|darsi|fpga|Project|project|t18.v</ClosedNode>
+         <ClosedNode>/t19 D:|darsi|fpga|Project|project|t19.v</ClosedNode>
+         <ClosedNode>/t2 D:|darsi|fpga|Project|project|t2.v</ClosedNode>
+         <ClosedNode>/t2 D:|darsi|fpga|Project|project|t2.v/uut - FPGA</ClosedNode>
+         <ClosedNode>/t20 D:|darsi|fpga|Project|project|t20.v</ClosedNode>
+         <ClosedNode>/t21 D:|darsi|fpga|Project|project|t21.v</ClosedNode>
+         <ClosedNode>/t22 D:|darsi|fpga|Project|project|t22.v</ClosedNode>
+         <ClosedNode>/t23 D:|darsi|fpga|Project|project|t23.v</ClosedNode>
+         <ClosedNode>/t24 D:|darsi|fpga|Project|project|t24.v</ClosedNode>
+         <ClosedNode>/t26 D:|darsi|fpga|Project|project|t26.v</ClosedNode>
+         <ClosedNode>/t27 D:|darsi|fpga|Project|project|t27.v</ClosedNode>
+         <ClosedNode>/t28 D:|darsi|fpga|Project|project|t28.v</ClosedNode>
+         <ClosedNode>/t29 D:|darsi|fpga|Project|project|t29.v</ClosedNode>
+         <ClosedNode>/t3 D:|darsi|fpga|Project|project|t3.v</ClosedNode>
+         <ClosedNode>/t30 D:|darsi|fpga|Project|project|t30.v</ClosedNode>
+         <ClosedNode>/t31 D:|darsi|fpga|Project|project|t31.v</ClosedNode>
+         <ClosedNode>/t32 D:|darsi|fpga|Project|project|t32.v</ClosedNode>
+         <ClosedNode>/t33 D:|darsi|fpga|Project|project|t33.v</ClosedNode>
+         <ClosedNode>/t34 D:|darsi|fpga|Project|project|t34.v</ClosedNode>
+         <ClosedNode>/t35 D:|darsi|fpga|Project|project|t35.v</ClosedNode>
+         <ClosedNode>/t36 D:|darsi|fpga|Project|project|t36.v</ClosedNode>
+         <ClosedNode>/t37 D:|darsi|fpga|Project|project|t37.v</ClosedNode>
+         <ClosedNode>/t38 D:|darsi|fpga|Project|project|t38.v</ClosedNode>
+         <ClosedNode>/t39 D:|darsi|fpga|Project|project|t39.v</ClosedNode>
+         <ClosedNode>/t4 D:|darsi|fpga|Project|project|t4.v</ClosedNode>
+         <ClosedNode>/t40 D:|darsi|fpga|Project|project|t40.v</ClosedNode>
+         <ClosedNode>/t41 D:|darsi|fpga|Project|project|t41.v</ClosedNode>
+         <ClosedNode>/t42 D:|darsi|fpga|Project|project|t42.v</ClosedNode>
+         <ClosedNode>/t43 D:|darsi|fpga|Project|project|t43.v</ClosedNode>
+         <ClosedNode>/t44 D:|darsi|fpga|Project|project|t44.v</ClosedNode>
+         <ClosedNode>/t45 D:|darsi|fpga|Project|project|t45.v</ClosedNode>
+         <ClosedNode>/t46 D:|darsi|fpga|Project|project|t46.v</ClosedNode>
+         <ClosedNode>/t48 D:|darsi|fpga|Project|project|t48.v</ClosedNode>
+         <ClosedNode>/t49 D:|darsi|fpga|Project|project|t49.v</ClosedNode>
+         <ClosedNode>/t5 D:|darsi|fpga|Project|project|t5.v</ClosedNode>
+         <ClosedNode>/t6 D:|darsi|fpga|Project|project|t6.v</ClosedNode>
+         <ClosedNode>/t7 D:|darsi|fpga|Project|project|t7.v</ClosedNode>
+         <ClosedNode>/t8 D:|darsi|fpga|Project|project|t8.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>t8 (D:/darsi/fpga/Project/project/t8.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >38</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e2000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>t8 (D:/darsi/fpga/Project/project/t8.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>
