@@ -1,6 +1,9 @@
-set -tmpdir "D:/darsi/fpga/Project/project/xst/projnav.tmp"
-set -xsthdpdir "D:/darsi/fpga/Project/project/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn FPGA.prj
+-ofn FPGA
+-ofmt NGC
 -p xc7k325t-2-ffg900
 -top FPGA
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn FPGA.prj

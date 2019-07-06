@@ -1,5 +1,5 @@
-set -tmpdir "D:/darsi/fpga/Project/project/xst/projnav.tmp"
-set -xsthdpdir "D:/darsi/fpga/Project/project/xst"
+set -tmpdir "D:/darsi/fpga/FPGA-Project/xst/projnav.tmp"
+set -xsthdpdir "D:/darsi/fpga/FPGA-Project/xst"
 run -compileonly yes
 -p xc7k325t-2-ffg900
 -top node

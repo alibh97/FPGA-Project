@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: FPGA.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\darsi\fpga\Project\project\node.v" into library work
+Analyzing Verilog file "D:\darsi\fpga\FPGA-Project\node.v" into library work
 Parsing module <node>.
 Parsing module <FPGA>.
 
@@ -114,19 +114,50 @@ Parsing module <FPGA>.
 =========================================================================
 
 Elaborating module <FPGA>.
-WARNING:HDLCompiler:872 - "D:\darsi\fpga\Project\project\node.v" Line 237: Using initial value of addr1 since it is never assigned
+WARNING:HDLCompiler:872 - "D:\darsi\fpga\FPGA-Project\node.v" Line 243: Using initial value of addr1 since it is never assigned
 
 Elaborating module <node>.
-WARNING:HDLCompiler:872 - "D:\darsi\fpga\Project\project\node.v" Line 49: Using initial value of startbit since it is never assigned
-ERROR:HDLCompiler:1511 - "D:\darsi\fpga\Project\project\node.v" Line 69: Mix of blocking and non-blocking assignments to variable <counter> is not a recommended coding practice.
-INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1511"
-Module node remains a blackbox, due to errors in its contents
-WARNING:HDLCompiler:1499 - "D:\darsi\fpga\Project\project\node.v" Line 21: Empty module <node> remains a black box.
+WARNING:HDLCompiler:872 - "D:\darsi\fpga\FPGA-Project\node.v" Line 50: Using initial value of startbit since it is never assigned
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 267: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 268: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 269: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 270: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 271: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 272: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 273: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 274: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 275: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 276: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 277: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 278: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 279: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 280: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 281: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\darsi\fpga\FPGA-Project\node.v" Line 282: Size mismatch in connection of port <outshow>. Formal port size is 101-bit while actual signal size is 1-bit.
+ERROR:HDLCompiler:1401 - "D:\darsi\fpga\FPGA-Project\node.v" Line 267: Signal outshow in unit FPGA is connected to following multiple drivers:
+Driver 0: node16/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node16).
+Driver 1: node15/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node15).
+Driver 2: node14/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node14).
+Driver 3: node13/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node13).
+Driver 4: node12/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node12).
+Driver 5: node11/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node11).
+Driver 6: node10/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node10).
+Driver 7: node9/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node9).
+Driver 8: node8/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node8).
+Driver 9: node7/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node7).
+Driver 10: node6/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node6).
+Driver 11: node5/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node5).
+Driver 12: node4/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node4).
+Driver 13: node3/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node3).
+Driver 14: node2/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node2).
+Driver 15: node1/outshow[0] driven by output signal outshow[0] of instance Flip-flop (node1).
+Module FPGA remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "D:\darsi\fpga\FPGA-Project\node.v" Line 191: Empty module <FPGA> remains a black box.
 --> 
 
 Total memory usage is 4535228 kilobytes
 
 Number of errors   :    1 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

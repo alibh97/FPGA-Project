@@ -154,7 +154,7 @@ module t49;
 		CRC15 = 0;
 		CRC16 = 0;
 		Data1 = 1;
-		Data2 = 0;
+		Data2 = 2;
 		Data3 = 0;
 		Data4 = 0;
 		Data5 = 0;
@@ -185,13 +185,11 @@ module t49;
 		receiverAddr14 = 0;
 		receiverAddr15 = 0;
 		receiverAddr16 = 0;
-		mod = 1;
+		mod = 2;
 
 		// Wait 100 ns for global reset to finish
 		#85;
-		mod=2;
-		#85;
-		mod=0;
+		mod=1;
         
 		// Add stimulus here
 

@@ -1,0 +1,28 @@
+Command line:
+   t51_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9022
+
+Sun Jul 07 00:45:43 2019
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5343.77 Meg
+
+ Total Signals          : 226
+ Total Nets             : 3584
+ Total Signal Drivers   : 232
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 268
+ Total Traceable Variables  : 308
+ Total Scalar Nets and Variables : 11105
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5343.77 Meg
+
+Sun Jul 07 00:46:02 2019
+
