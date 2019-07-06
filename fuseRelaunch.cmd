@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/darsi/fpga/FPGA-Project/t61_isim_beh.exe" -prj "D:/darsi/fpga/FPGA-Project/t61_beh.prj" "work.t61" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/darsi/fpga/FPGA-Project/t64_isim_beh.exe" -prj "D:/darsi/fpga/FPGA-Project/t64_beh.prj" "work.t64" "work.glbl" 

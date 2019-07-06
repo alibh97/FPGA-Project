@@ -18,14 +18,14 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module node(clock,crc,mod,data,bus_in,addr,receiverAddr
+module node(clock,crc,mod,data,bus_in,addr,receiverAddr,data_out
     );
 input clock;
 input [3:0] crc,addr,receiverAddr;
 input  mod;
 input [63:0] data;
 inout bus_in;
-
+output [63:0] data_out;
 
 //bus enable 
 reg bus_en=0;
@@ -178,6 +178,8 @@ integer begin_receiving=0;
 						
 	assign nodeData= ack[addr]==1'b1 ? temp_data : data;
 	
+	assign data_out=nodeData;
+	
 
 
 endmodule
@@ -193,6 +195,8 @@ CRC1,CRC2,CRC3,CRC4,CRC5,CRC6,CRC7,CRC8,CRC9,CRC10,CRC11,CRC12,CRC13,CRC14,CRC15
 
 // 63 bit input initila data
 Data1,Data2,Data3,Data4,Data5,Data6,Data7,Data8,Data9,Data10,Data11,Data12,Data13,Data14,Data15,Data16,
+
+Data1_out,Data2_out,Data3_out,Data4_out,Data5_out,Data6_out,Data7_out,Data8_out,Data9_out,Data10_out,Data11_out,Data12_out,Data13_out,Data14_out,Data15_out,Data16_out,
 
 // the addres which sender will send data to the node with this address
 receiverAddr1,receiverAddr2,receiverAddr3,receiverAddr4,receiverAddr5,receiverAddr6,receiverAddr7,
@@ -215,6 +219,9 @@ CRC11,CRC12,CRC13,CRC14,CRC15,CRC16;
 // 63 bit input initila data
 input [63:0] Data1,Data2,Data3,Data4,Data5,Data6,Data7,Data8,Data9,
 Data10,Data11,Data12,Data13,Data14,Data15,Data16;
+
+output [63:0] Data1_out,Data2_out,Data3_out,Data4_out,Data5_out,Data6_out,Data7_out,Data8_out,Data9_out
+,Data10_out,Data11_out,Data12_out,Data13_out,Data14_out,Data15_out,Data16_out;
 
 // the addres which sender will send data to the node with this address
 input [3:0] receiverAddr1,receiverAddr2,receiverAddr3,receiverAddr4,receiverAddr5,receiverAddr6,receiverAddr7,
@@ -257,22 +264,16 @@ end
 
 
 // instantiation
-node node1(.clock(clock),.crc(CRC1),.mod(mod[0]),.data(Data1),.bus_in(bus),.addr(addr1),.receiverAddr(receiverAddr1));
-node node2(.clock(clock),.crc(CRC2),.mod(mod[1]),.data(Data2),.bus_in(bus),.addr(addr2),.receiverAddr(receiverAddr2));
-node node3(.clock(clock),.crc(CRC3),.mod(mod[2]),.data(Data3),.bus_in(bus),.addr(addr3),.receiverAddr(receiverAddr3));
-node node4(.clock(clock),.crc(CRC4),.mod(mod[3]),.data(Data4),.bus_in(bus),.addr(addr4),.receiverAddr(receiverAddr4));
-node node5(.clock(clock),.crc(CRC5),.mod(mod[4]),.data(Data5),.bus_in(bus),.addr(addr5),.receiverAddr(receiverAddr5));
-node node6(.clock(clock),.crc(CRC6),.mod(mod[5]),.data(Data6),.bus_in(bus),.addr(addr6),.receiverAddr(receiverAddr6));
-node node7(.clock(clock),.crc(CRC7),.mod(mod[6]),.data(Data7),.bus_in(bus),.addr(addr7),.receiverAddr(receiverAddr7));
-node node8(.clock(clock),.crc(CRC8),.mod(mod[7]),.data(Data8),.bus_in(bus),.addr(addr8),.receiverAddr(receiverAddr8));
-node node9(.clock(clock),.crc(CRC9),.mod(mod[8]),.data(Data9),.bus_in(bus),.addr(addr9),.receiverAddr(receiverAddr9));
-node node10(.clock(clock),.crc(CRC10),.mod(mod[9]),.data(Data10),.bus_in(bus),.addr(addr10),.receiverAddr(receiverAddr10));
-node node11(.clock(clock),.crc(CRC11),.mod(mod[10]),.data(Data11),.bus_in(bus),.addr(addr11),.receiverAddr(receiverAddr11));
-node node12(.clock(clock),.crc(CRC12),.mod(mod[11]),.data(Data12),.bus_in(bus),.addr(addr12),.receiverAddr(receiverAddr12));
-node node13(.clock(clock),.crc(CRC13),.mod(mod[12]),.data(Data13),.bus_in(bus),.addr(addr13),.receiverAddr(receiverAddr13));
-node node14(.clock(clock),.crc(CRC14),.mod(mod[13]),.data(Data14),.bus_in(bus),.addr(addr14),.receiverAddr(receiverAddr14));
-node node15(.clock(clock),.crc(CRC15),.mod(mod[14]),.data(Data15),.bus_in(bus),.addr(addr15),.receiverAddr(receiverAddr15));
-node node16(.clock(clock),.crc(CRC16),.mod(mod[15]),.data(Data16),.bus_in(bus),.addr(addr16),.receiverAddr(receiverAddr16));
+node node1(.clock(clock),.crc(CRC1),.mod(mod[0]),.data(Data1),.bus_in(bus),.addr(addr1),.receiverAddr(receiverAddr1),.data_out(Data1_out));
+node node2(.clock(clock),.crc(CRC2),.mod(mod[1]),.data(Data2),.bus_in(bus),.addr(addr2),.receiverAddr(receiverAddr2),.data_out(Data2_out));
+node node3(.clock(clock),.crc(CRC3),.mod(mod[2]),.data(Data3),.bus_in(bus),.addr(addr3),.receiverAddr(receiverAddr3),.data_out(Data3_out));
+node node4(.clock(clock),.crc(CRC4),.mod(mod[3]),.data(Data4),.bus_in(bus),.addr(addr4),.receiverAddr(receiverAddr4),.data_out(Data4_out));
+node node5(.clock(clock),.crc(CRC5),.mod(mod[4]),.data(Data5),.bus_in(bus),.addr(addr5),.receiverAddr(receiverAddr5),.data_out(Data5_out));
+node node6(.clock(clock),.crc(CRC6),.mod(mod[5]),.data(Data6),.bus_in(bus),.addr(addr6),.receiverAddr(receiverAddr6),.data_out(Data6_out));
+node node7(.clock(clock),.crc(CRC7),.mod(mod[6]),.data(Data7),.bus_in(bus),.addr(addr7),.receiverAddr(receiverAddr7),.data_out(Data7_out));
+node node8(.clock(clock),.crc(CRC8),.mod(mod[7]),.data(Data8),.bus_in(bus),.addr(addr8),.receiverAddr(receiverAddr8),.data_out(Data8_out));
+node node9(.clock(clock),.crc(CRC9),.mod(mod[8]),.data(Data9),.bus_in(bus),.addr(addr9),.receiverAddr(receiverAddr9),.data_out(Data9_out));
+
 
 // we put bus in bus_show to see what is on it in any clock;
 assign bus_show= bus;

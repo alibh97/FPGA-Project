@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to D:/darsi/fpga/FPGA-Project/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to D:/darsi/fpga/FPGA-Project/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: node.prj
 
@@ -42,16 +42,14 @@ TABLE OF CONTENTS
 Analyzing Verilog file "D:\darsi\fpga\FPGA-Project\node.v" into library work
 Parsing module <node>.
 Parsing module <FPGA>.
-
-
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 6.10 secs
- 
+ERROR:HDLCompiler:69 - "D:\darsi\fpga\FPGA-Project\node.v" Line 199: <Data1_out> is not declared.
+ERROR:HDLCompiler:598 - "D:\darsi\fpga\FPGA-Project\node.v" Line 190: Module <FPGA> ignored due to previous errors.
+Verilog file D:\darsi\fpga\FPGA-Project\node.v ignored due to errors
 --> 
 
 Total memory usage is 4532800 kilobytes
 
-Number of errors   :    0 (   0 filtered)
+Number of errors   :    2 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
